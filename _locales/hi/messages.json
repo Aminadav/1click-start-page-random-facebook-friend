@@ -1,0 +1,11 @@
+{
+  "browser_action": {"message": "Random facebook friend" },
+  "ext_desc": {"message": "Get random facebook friend when opening new tab" },
+  "ext_name": {"message": "1click Random Facebook Friend" },
+  "save": {"message": "Save" },
+  "request_permission_explain": {"message": "To enable facebook random friend we need read facebook friends." },
+  "request_permission_button": {"message": "Please grant us those permission" },
+  "before_friends_saving": {"message": "Now we will save your friends locally, wait until action is finished" }
+}
+
+
