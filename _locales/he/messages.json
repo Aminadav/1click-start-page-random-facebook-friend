@@ -1,7 +1,7 @@
 {
   "browser_action": {"message": "שמור חברי פייסבוק" },
   "ext_desc": {"message": "בכל פתיחת טאבף ראה חבר פייסבוק אקראי" },
-  "ext_name": {"message": "חבר פייסבוק אקראי במלחיה אחת" },
+  "ext_name": {"message": "חבר פייסבוק אקראי בלחיצה אחת" },
   "save": {"message": "שמור" },
   "request_permission_explain": {"message": "כדי להראות חבר פייסבוק אקראי אנו זקוקים לקבל הרשאות לאתר פייסבוק" },
   "request_permission_button": {"message": "אנא אשר הרשאות אלו" },
