@@ -1,6 +1,41 @@
 # <a href="https://1ce.org/1click-start-page-random-facebook-friend">1CE - 1Click Random Facebook Friend</a>
 
+The fastest and smartest way know better your facebook friends.
+If you want to know better your facebook friends. If you disappointed by faceook algorithem - you can use this extension!
 
+This extension is an open-source 📰 extension. What is it mean for you:
+
+
+☑ It's mean it's safe. Everyone can inspect the source code.
+☑ It's mean that if you're are a developer or intern your more than welcome to contribute code.
+
+This extension is another extension of 1ce. Our mission is to advance open-source extensions.
+Visit our website to learn more, and be part of the community: https://1ce.org
+
+
+If you have a question, visit the FAQ section on our website: https://1ce.org
+
+Usage Guide:
+
+1. Install the extension (Click on the "Add to Chrome")
+2. Click on the extension icon (After you install it).
+3. click on "grant permissions" button.
+4. The extention would redirect browser to your facebook's friends page. Don't touch the browser until the action would finish.
+5. Don't worry! Your friend's list is saved locally and not sent to the web.
+6. Any new tab would be from now random facebook friend.
+7. when you connect to a new friends, you can click extension icon and refresh friends list.
+
+For more instruction visit the website: https://1ce.org
+
+
+Permissions explain:
+
+We need permission to facebook pages, to read your friends list.
+We don't use this permission to anything else.
+
+Data Usage:
+
+We do not record any of your data usage. Everything stay private on your machine, until your decide you want to share it. 
 
 ---
 

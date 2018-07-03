@@ -5,7 +5,7 @@ function oneClickGetPopupHtml(extension) {
   }
 
   //   mail = `1click-start-page-random-facebook-friend@1ce.org`,
-  //   	rateLink = `https://chrome.google.com/webstore/detail//reviews`,
+  //   	rateLink = `https://chrome.google.com/webstore/detail/lplmpnoiafkgkldpjfggnhpjookoacnc/reviews`,
   // 	  githubLink = `https://github.com/1click-extensions/1click-start-page-random-facebook-friend`;
   // 	console.log(extension);
   return (str = `
@@ -109,7 +109,7 @@ button.btn-popup.no-thanks {
   </style>
 	<div class="pleaseRate">
 		<div class="please-rate-text">
-			If you like 1Click Random Facebook Friend <a target=_blank href="https://chrome.google.com/webstore/detail//reviews" >please give us 5-stars</a>
+			If you like 1Click Random Facebook Friend <a target=_blank href="https://chrome.google.com/webstore/detail/lplmpnoiafkgkldpjfggnhpjookoacnc/reviews" >please give us 5-stars</a>
 			<br/>
 			<div class="addition">To report a bug please <a href="https://github.com/1click-extensions/1click-start-page-random-facebook-friend/issues/new">submit issue</a> 
 			</div>
