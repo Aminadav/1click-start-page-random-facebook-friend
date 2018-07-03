@@ -17,15 +17,6 @@ chrome.runtime.onMessage.addListener(function (data, sender, callback) {
 			
 			//console.log(sender.tab, sender.tab.id);
 			break;
-		case 'injectJsDelayedCurrentTab':
-			//console.log('clicke',sender, chrome.runtime.getURL('js/rank-reciever.js'));
- 			setTimeout(function(){
-
- 				injectJsCurrentTab();
- 			},2000);
-			
-			//console.log(sender.tab, sender.tab.id);
-			break;
 
 		case 'checkIfNeedRating':
 			///console.log('clicke',tab.id, chrome.runtime.getURL('js/rank-reciever.js'));
@@ -37,7 +28,7 @@ chrome.runtime.onMessage.addListener(function (data, sender, callback) {
 	}
 });
 function injectTabWrp(sender){
-	if(0&&!sender.tab){
+	if(!sender.tab){
 		injectJsCurrentTab();
 	 }
 	 else{
@@ -51,7 +42,7 @@ function injectJsCurrentTab(){
 	});
 }
 function injectJs(tab){
-	console.log(tab)
+	//console.log(tab)
 	if(tab){
 		chrome.tabs.executeScript(tab.id,{file:'js/extention-data.js'});
 		chrome.tabs.executeScript(tab.id,{file:'js/show-popup.js'}, function(){
@@ -60,10 +51,10 @@ function injectJs(tab){
 	}
 }
 
-chrome.runtime.setUninstallURL(`https://1ce.org?action=remove&ext=1click-start-page-wikipedia-random`);
+chrome.runtime.setUninstallURL(`https://1ce.org?action=remove&ext=1click-start-page-random-facebook-friend`);
 
 if (!localStorage.getItem('created')) {
-  chrome.tabs.create({ url: `https://1ce.org?action=install&ext=1click-start-page-wikipedia-random` });
+  chrome.tabs.create({ url: `https://1ce.org?action=install&ext=1click-start-page-random-facebook-friend` });
   var manifest = chrome.runtime.getManifest();
   localStorage.setItem('ver', manifest.version);
   localStorage.setItem('created',1);

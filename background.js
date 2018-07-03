@@ -17,7 +17,6 @@ function readFriends(){
 	//localStorage.setItem('onReadingFriends',1);
 	chrome.tabs.create({ url: 'https://www.facebook.com'}, function(tab){
 		currentTab = tab;
-
 		chrome.tabs.executeScript(tab.id, {file:"js/main-page.js"});
 	});
 }

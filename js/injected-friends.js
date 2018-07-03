@@ -22,6 +22,7 @@ function getAllFriends(){
 		}
 
 	}
-	console.log(allFriends);
+	//console.log(allFriends);
 	chrome.runtime.sendMessage({action: "saveFriends", "allFriends": allFriends});   
+	alert(chrome.i18n.getMessage('friends_finished'));
 }
