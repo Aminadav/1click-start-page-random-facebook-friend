@@ -1,8 +1,8 @@
 {
-  "browser_action": {"message": "Save facebook friends" },
-  "ext_desc": {"message": "Get random facebook friend when opening new tab" },
-  "ext_name": {"message": "1click Random Facebook Friend" },
-  "save": {"message": "Save" },
+  "browser_action": {"message": "Speichere facebook friends" },
+  "ext_desc": {"message": "Bekomme einen zufälligen facebook Freund wenn ein neuer Tab geöffnet wird" },
+  "ext_name": {"message": "1click zufälliger Facebook Freund" },
+  "save": {"message": "Speichern" },
   "request_permission_explain": {"message": "To enable facebook random friend we need read facebook friends." },
   "request_permission_button": {"message": "Please grant us those permission" },
   "refresh_friends": {"message": "refresh" },
